@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redonly、Static和Const之
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程的初步理解", "多线程的初步理解\多线程的初步理解.csproj", "{CEF20BB2-DC9C-4D24-B3CE-D9CF84830E99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "前台线程和后台线程", "前台线程和后台线程\前台线程和后台线程.csproj", "{76EF68CC-FCEB-483C-8750-EA9E176FB46C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CEF20BB2-DC9C-4D24-B3CE-D9CF84830E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEF20BB2-DC9C-4D24-B3CE-D9CF84830E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEF20BB2-DC9C-4D24-B3CE-D9CF84830E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EF68CC-FCEB-483C-8750-EA9E176FB46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EF68CC-FCEB-483C-8750-EA9E176FB46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EF68CC-FCEB-483C-8750-EA9E176FB46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EF68CC-FCEB-483C-8750-EA9E176FB46C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
