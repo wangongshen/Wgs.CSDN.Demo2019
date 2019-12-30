@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程的初步理解", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "前台线程和后台线程", "前台线程和后台线程\前台线程和后台线程.csproj", "{76EF68CC-FCEB-483C-8750-EA9E176FB46C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造有参数的线程ParameterizedThreadStart", "构造有参数的线程ParameterizedThreadStart\构造有参数的线程ParameterizedThreadStart.csproj", "{DE734746-0A31-4850-9961-AC3D4166E4F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{76EF68CC-FCEB-483C-8750-EA9E176FB46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76EF68CC-FCEB-483C-8750-EA9E176FB46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76EF68CC-FCEB-483C-8750-EA9E176FB46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE734746-0A31-4850-9961-AC3D4166E4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE734746-0A31-4850-9961-AC3D4166E4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE734746-0A31-4850-9961-AC3D4166E4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE734746-0A31-4850-9961-AC3D4166E4F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
