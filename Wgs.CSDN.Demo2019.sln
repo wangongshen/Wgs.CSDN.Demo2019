@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程执行非静态方法
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "非线程安全与线程同步", "非线程安全与线程同步\非线程安全与线程同步.csproj", "{81F82147-CC9F-49AE-9C4C-3BDDA0612E6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程同步实现锁机制以抢票为例", "线程同步实现锁机制以卖票为例\线程同步实现锁机制以抢票为例.csproj", "{3B4BCF50-21A8-452F-8377-BFDFC9E0F2D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{81F82147-CC9F-49AE-9C4C-3BDDA0612E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81F82147-CC9F-49AE-9C4C-3BDDA0612E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81F82147-CC9F-49AE-9C4C-3BDDA0612E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4BCF50-21A8-452F-8377-BFDFC9E0F2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4BCF50-21A8-452F-8377-BFDFC9E0F2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4BCF50-21A8-452F-8377-BFDFC9E0F2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4BCF50-21A8-452F-8377-BFDFC9E0F2D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
