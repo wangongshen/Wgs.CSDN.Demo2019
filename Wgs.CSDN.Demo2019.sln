@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "非线程安全与线程同
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程同步实现锁机制以抢票为例", "线程同步实现锁机制以卖票为例\线程同步实现锁机制以抢票为例.csproj", "{3B4BCF50-21A8-452F-8377-BFDFC9E0F2D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "跨线程访问", "跨线程访问\跨线程访问.csproj", "{27E1E60C-83B6-405D-B5C3-9A8734AC5A7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{3B4BCF50-21A8-452F-8377-BFDFC9E0F2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B4BCF50-21A8-452F-8377-BFDFC9E0F2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B4BCF50-21A8-452F-8377-BFDFC9E0F2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E1E60C-83B6-405D-B5C3-9A8734AC5A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E1E60C-83B6-405D-B5C3-9A8734AC5A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E1E60C-83B6-405D-B5C3-9A8734AC5A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E1E60C-83B6-405D-B5C3-9A8734AC5A7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
