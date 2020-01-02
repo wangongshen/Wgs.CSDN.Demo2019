@@ -40,6 +40,7 @@
             this.btnSendFile = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
             this.btnZD = new System.Windows.Forms.Button();
+            this.btnGroupSend = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtIP
@@ -103,57 +104,73 @@
             // 
             this.txtPath.Location = new System.Drawing.Point(12, 333);
             this.txtPath.Name = "txtPath";
-            this.txtPath.Size = new System.Drawing.Size(431, 21);
+            this.txtPath.Size = new System.Drawing.Size(351, 21);
             this.txtPath.TabIndex = 0;
             // 
             // btnSelect
             // 
-            this.btnSelect.Location = new System.Drawing.Point(449, 322);
+            this.btnSelect.Location = new System.Drawing.Point(369, 332);
             this.btnSelect.Name = "btnSelect";
             this.btnSelect.Size = new System.Drawing.Size(82, 20);
             this.btnSelect.TabIndex = 1;
             this.btnSelect.Text = "选择文件";
             this.btnSelect.UseVisualStyleBackColor = true;
+            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
             // 
             // btnSendFile
             // 
             this.btnSendFile.AccessibleRole = System.Windows.Forms.AccessibleRole.Equation;
-            this.btnSendFile.Location = new System.Drawing.Point(537, 322);
+            this.btnSendFile.Location = new System.Drawing.Point(457, 332);
             this.btnSendFile.Name = "btnSendFile";
             this.btnSendFile.Size = new System.Drawing.Size(82, 20);
             this.btnSendFile.TabIndex = 1;
             this.btnSendFile.Text = "发送文件";
             this.btnSendFile.UseVisualStyleBackColor = true;
+            this.btnSendFile.Click += new System.EventHandler(this.btnSendFile_Click);
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(449, 348);
+            this.btnSend.Location = new System.Drawing.Point(369, 358);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(82, 20);
             this.btnSend.TabIndex = 1;
             this.btnSend.Text = "发动消息";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // btnZD
             // 
-            this.btnZD.Location = new System.Drawing.Point(537, 348);
+            this.btnZD.Location = new System.Drawing.Point(545, 332);
             this.btnZD.Name = "btnZD";
             this.btnZD.Size = new System.Drawing.Size(82, 20);
             this.btnZD.TabIndex = 1;
             this.btnZD.Text = "震动";
             this.btnZD.UseVisualStyleBackColor = true;
+            this.btnZD.Click += new System.EventHandler(this.btnZD_Click);
+            // 
+            // btnGroupSend
+            // 
+            this.btnGroupSend.AccessibleRole = System.Windows.Forms.AccessibleRole.Equation;
+            this.btnGroupSend.Location = new System.Drawing.Point(457, 358);
+            this.btnGroupSend.Name = "btnGroupSend";
+            this.btnGroupSend.Size = new System.Drawing.Size(82, 20);
+            this.btnGroupSend.TabIndex = 1;
+            this.btnGroupSend.Text = "群发消息";
+            this.btnGroupSend.UseVisualStyleBackColor = true;
+            this.btnGroupSend.Click += new System.EventHandler(this.btnGroupSend_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 377);
+            this.ClientSize = new System.Drawing.Size(639, 382);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtMsg);
             this.Controls.Add(this.txtLog);
             this.Controls.Add(this.cboUsers);
             this.Controls.Add(this.btnZD);
             this.Controls.Add(this.btnSend);
+            this.Controls.Add(this.btnGroupSend);
             this.Controls.Add(this.btnSendFile);
             this.Controls.Add(this.btnSelect);
             this.Controls.Add(this.BtnStartListing);
@@ -181,6 +198,7 @@
         private System.Windows.Forms.Button btnSendFile;
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Button btnZD;
+        private System.Windows.Forms.Button btnGroupSend;
     }
 }
 

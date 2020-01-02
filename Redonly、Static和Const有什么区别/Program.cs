@@ -44,18 +44,18 @@ namespace Redonly_Static和Const之间的区别
 
         #region static:初始化的时候必须赋值，赋值后就不能再更改；
         //const string strConstA = "OOO";
-        //const string strConstB ;
+        //const string strConstB;
         //Program()
         //{
         //    strConstA = "AAA";
         //    strConstB = "BBB";
         //}
-        //static void Main(string[] args)
-        //{
-        //    strConstA = "CCC";
-        //    strConstB = "DDD";
+        static void Main(string[] args)
+        {
+            //strConstA = "CCC";
+            //strConstB = "DDD";
 
-        //}
+        }
 
         #endregion
     }
